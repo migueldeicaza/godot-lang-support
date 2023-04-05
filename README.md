@@ -102,7 +102,10 @@ In contrast, the languages provided here are for *making scripts* in Godot proje
    Python is the language for which PluginScript, the API that provides Godot-editor support, got designed for. It provides editor integration as GDScript does - it's still in beta. Currently, the bottleneck to its stability is its flawed [export system](https://github.com/touilleMan/godot-python/issues/146).
    PyCharm is another way of doing Python for Godot, and this one supports [visual debugging](https://medium.com/@prokopst/debugging-godot-python-with-pycharm-b5f9dd2cf769)
 
-1. ### [Swift](https://github.com/kelvin13/godot-swift) 👥 🔌 🔧
+1. ### [Swift](https://github.com/migueldeicaza/SwiftGodot)
+   Swift bindings for the Godot 4.0 series, available as a package that can be incorporated into other projects using Swift Package Manager.
+   
+3. ### [Swift](https://github.com/kelvin13/godot-swift) 👥 🔌 🔧
    Provides bindings and a Swift Package Manager-powered build system for creating Godot native libraries from Swift frameworks. GDScript APIs are written in terms of Swift protocols and generics, allowing for seamless Swift-to-Godot interoperability. Automates nearly all of the process of registering types and members with the Godot runtime, and ships with an expressive, SIMD-accelerated math library. Has comprehensive [API documentation](https://kelvin13.github.io/godot-swift/) and [tutorials](https://github.com/kelvin13/godot-swift/tree/master/examples).
 
 1. ### [WASM](https://github.com/Dheatly23/godot-wasm) 👥 🏄
